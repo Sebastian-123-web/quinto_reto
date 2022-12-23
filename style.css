@@ -5,8 +5,68 @@
 }
 body{
     background-color: #E5E5E5;
+    color: #fff;
 }
 .w-1024{
     width: 100%;
     max-width: 1024px;
+}
+
+/* ****** */
+/* HEADER */
+/* ****** */
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon{
+    width: 55px;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+.nav ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+}
+.nav ul li .active{
+    color: #1F3F68;
+    font-weight: 700;
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    min-width: 1024px;
+}
+.title-y-paragraph{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    text-align: center;
+}
+.title-y-paragraph h1{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 44px;
+}
+.title-y-paragraph p{
+    font-weight: 400;
+    font-size: 20px;
 }
