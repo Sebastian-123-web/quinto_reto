@@ -14,7 +14,7 @@ body{
 /* ****** */
 /* HEADER */
 /* ****** */
-.header, .main{
+.header, .main, .footer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,7 +50,7 @@ body{
 }
 .banner img{
     width: 100%;
-    min-width: 1024px;
+    min-width: 1200px;
 }
 .title-y-paragraph{
     position: absolute;
@@ -194,4 +194,47 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    color: #356EAD;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* ****** */
+/* FOOTER */
+/* ****** */
+
+.footer{
+    background-color: #316099;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    color: #fff;
+}
+.footer-header{
+    display: flex;
+    margin-bottom: 80px;
+}
+.footer-header div{
+    width: 50%;
+}
+
+.footer-body{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.footer-body-info{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    opacity: 0.4;
 }
