@@ -4,8 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: #E5E5E5;
-    color: #fff;
+    background-color: #fff;
 }
 .w-1024{
     width: 100%;
@@ -15,7 +14,7 @@ body{
 /* ****** */
 /* HEADER */
 /* ****** */
-.header{
+.header, .main{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,8 +64,134 @@ body{
     margin-bottom: 30px;
     font-weight: 400;
     font-size: 44px;
+    color: #fff;
 }
 .title-y-paragraph p{
     font-weight: 400;
     font-size: 20px;
+    color: #fff;
+}
+
+/* ****** */
+/*  MAIN  */
+/* ****** */
+
+.popular{
+    padding-top: 40px;
+}
+
+.input-search{
+    position: relative;
+    margin-bottom: 40px;
+}
+.input-search input{
+    width: calc(100% - 100px);
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 50px;
+    background-color: #F4F4F4;
+}
+.input-search img{
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    filter: opacity(50%);
+}
+
+.popular-info{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 58px;
+}
+.popular-info h3{
+    color: #356EAD;
+    margin-bottom: 20px;
+}
+.house{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.house-info{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+.house-info h2{
+    color: #1F3F68;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.home-text{
+    color: #565656;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.home-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-footer-person{
+    color: #565656;
+    font-weight: 400;
+    font-size: 18px;
+}
+.home-footer-icon img{
+    margin-right: 15px;
+}
+
+.home-row{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    margin-bottom: 50px;
+}
+.home-card{
+    width: 330px;
+}
+.home-card-head{
+    width: 330px;
+    margin-bottom: 30px;
+}
+.home-subtitle{
+    color: #1F3F68;
+    margin-bottom: 20px;
+}
+.home-footer-icon-img{
+    margin-right: 15px;
+}
+.color-blue{
+    color: #1F3F68;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.popular-info-footer{
+    display: flex;
+    justify-content: end;
+    color: #1F3F68;
+    margin-bottom: 30px;
+}
+
+
+
+.article-card-img{
+    margin-right: 30px;
+}
+.article-card{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.article-card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
