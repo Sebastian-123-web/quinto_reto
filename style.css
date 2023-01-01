@@ -310,7 +310,12 @@ hr{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    } 
+    }
+    .title-y-paragraph{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 
     .banner{
         overflow: hidden;
