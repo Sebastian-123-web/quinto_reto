@@ -47,6 +47,7 @@ body{
 .banner{
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
 .banner img{
     width: 100%;
@@ -293,8 +294,8 @@ body{
     color: #fff;
 }
 
-hr{
-    width: 100%;
+.line{
+    width: 99%;
     border: 1px solid #FFFFFF;
     opacity: 0.4;
 }
@@ -304,6 +305,19 @@ hr{
 
     opacity: 0.4;
 }
+
+@media (min-width: 1024px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        padding: 0 40px;
+    }
+    .popular{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
 
 @media screen and (max-width: 600px){
     .navegacion{
@@ -324,7 +338,7 @@ hr{
     .main{
         display: flex;
         flex-direction: column;
-        padding: 0 40px 0 40px;
+        padding: 0 40px;
     }
     .house{
         display: flex;
